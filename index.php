@@ -9,8 +9,7 @@
 	{
 		$id = $_POST["id"];
 		$c1->delete($id);
-	}else{
-		
+    header("Location: index.php");
 	}
 ?>
 
